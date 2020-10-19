@@ -1,0 +1,275 @@
+{
+  statusCode: 500,
+  message: 'Uncaught Exception: Oops!',
+  level: 'error',
+  timestamp: '2020-10-18 22:55:33'
+}
+{
+  statusCode: 500,
+  message: 'Uncaught Exception: Oops!',
+  level: 'error',
+  timestamp: '2020-10-18 22:56:55'
+}
+{
+  statusCode: 500,
+  message: 'Uncaught Exception: Oops!',
+  level: 'error',
+  timestamp: '2020-10-18 22:57:12'
+}
+{
+  statusCode: 500,
+  message: 'Uncaught Exception: Oops!',
+  level: 'error',
+  timestamp: '2020-10-18 23:00:40'
+}
+{
+  statusCode: 500,
+  message: 'Uncaught Exception: Oops!',
+  level: 'error',
+  timestamp: '2020-10-18 23:05:41'
+}
+{
+  statusCode: 404,
+  message: 'Task 80f80f23-2313-4421-af07-7f9fa9230e9e from board 5cd4eab8-642d-4a79-a66c-8745998a4f3c does not exist',
+  url: 'http://localhost:4000/boards/5cd4eab8-642d-4a79-a66c-8745998a4f3c/tasks/80f80f23-2313-4421-af07-7f9fa9230e9e',
+  level: 'error',
+  timestamp: '2020-10-19 14:22:28'
+}
+{
+  statusCode: 404,
+  message: 'Board 1dc78da8-5097-4db5-9a15-11fd465b6387 does not exist',
+  url: 'http://localhost:4000/boards/1dc78da8-5097-4db5-9a15-11fd465b6387',
+  level: 'error',
+  timestamp: '2020-10-19 14:22:28'
+}
+{
+  statusCode: 404,
+  message: 'Task 8bc04914-cc8b-4613-88fb-41cb3d6eb571 from board bdf78b39-eed0-4e99-9874-7edb6281b569 does not exist',
+  url: 'http://localhost:4000/boards/bdf78b39-eed0-4e99-9874-7edb6281b569/tasks/8bc04914-cc8b-4613-88fb-41cb3d6eb571',
+  level: 'error',
+  timestamp: '2020-10-19 14:22:29'
+}
+{
+  statusCode: 404,
+  message: 'Task c03bd06f-42c6-4562-bd40-eff199036982 from board bdf78b39-eed0-4e99-9874-7edb6281b569 does not exist',
+  url: 'http://localhost:4000/boards/bdf78b39-eed0-4e99-9874-7edb6281b569/tasks/c03bd06f-42c6-4562-bd40-eff199036982',
+  level: 'error',
+  timestamp: '2020-10-19 14:22:29'
+}
+{
+  statusCode: 404,
+  message: 'Task f079154e-6de5-4ac0-b61a-6ad1e65a59f9 from board bdf78b39-eed0-4e99-9874-7edb6281b569 does not exist',
+  url: 'http://localhost:4000/boards/bdf78b39-eed0-4e99-9874-7edb6281b569/tasks/f079154e-6de5-4ac0-b61a-6ad1e65a59f9',
+  level: 'error',
+  timestamp: '2020-10-19 14:22:29'
+}
+{
+  statusCode: 404,
+  message: 'Task ee103a67-4716-40b5-8fd3-76886291fa3b from board bdf78b39-eed0-4e99-9874-7edb6281b569 does not exist',
+  url: 'http://localhost:4000/boards/bdf78b39-eed0-4e99-9874-7edb6281b569/tasks/ee103a67-4716-40b5-8fd3-76886291fa3b',
+  level: 'error',
+  timestamp: '2020-10-19 14:22:29'
+}
+{
+  statusCode: 404,
+  message: 'Task 5c25a366-bd91-4298-ac84-cdddf422fcf6 from board bdf78b39-eed0-4e99-9874-7edb6281b569 does not exist',
+  url: 'http://localhost:4000/boards/bdf78b39-eed0-4e99-9874-7edb6281b569/tasks/5c25a366-bd91-4298-ac84-cdddf422fcf6',
+  level: 'error',
+  timestamp: '2020-10-19 14:22:29'
+}
+{
+  statusCode: 404,
+  message: 'Board b19b1a73-cfa4-46a1-a63d-97ac5f4d1f80 does not exist',
+  url: 'http://localhost:4000/boards/b19b1a73-cfa4-46a1-a63d-97ac5f4d1f80',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:08'
+}
+{
+  statusCode: 404,
+  message: 'Task 136996be-abf7-4442-ba8b-01319103d9c5 from board f53e507e-f217-4ffd-8afb-580f05599f5c does not exist',
+  url: 'http://localhost:4000/boards/f53e507e-f217-4ffd-8afb-580f05599f5c/tasks/136996be-abf7-4442-ba8b-01319103d9c5',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:09'
+}
+{
+  statusCode: 404,
+  message: 'Task f7aa7c5e-81d9-40b9-a3a3-be300f782611 from board f1ced16f-c136-40df-a6dc-b2b3d19588c8 does not exist',
+  url: 'http://localhost:4000/boards/f1ced16f-c136-40df-a6dc-b2b3d19588c8/tasks/f7aa7c5e-81d9-40b9-a3a3-be300f782611',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:09'
+}
+{
+  statusCode: 404,
+  message: 'Task f62a9187-99b7-420d-8332-3027865f8f6d from board f1ced16f-c136-40df-a6dc-b2b3d19588c8 does not exist',
+  url: 'http://localhost:4000/boards/f1ced16f-c136-40df-a6dc-b2b3d19588c8/tasks/f62a9187-99b7-420d-8332-3027865f8f6d',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:09'
+}
+{
+  statusCode: 404,
+  message: 'Task bd9a7fe9-cc57-40c9-a57d-2459988a5e0e from board f1ced16f-c136-40df-a6dc-b2b3d19588c8 does not exist',
+  url: 'http://localhost:4000/boards/f1ced16f-c136-40df-a6dc-b2b3d19588c8/tasks/bd9a7fe9-cc57-40c9-a57d-2459988a5e0e',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:09'
+}
+{
+  statusCode: 404,
+  message: 'Task 66fb5ca3-17ae-4430-8814-c5ce428a64bc from board f1ced16f-c136-40df-a6dc-b2b3d19588c8 does not exist',
+  url: 'http://localhost:4000/boards/f1ced16f-c136-40df-a6dc-b2b3d19588c8/tasks/66fb5ca3-17ae-4430-8814-c5ce428a64bc',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:09'
+}
+{
+  statusCode: 404,
+  message: 'Task 0c7ffc69-468f-4199-ba60-06b588ae62df from board f1ced16f-c136-40df-a6dc-b2b3d19588c8 does not exist',
+  url: 'http://localhost:4000/boards/f1ced16f-c136-40df-a6dc-b2b3d19588c8/tasks/0c7ffc69-468f-4199-ba60-06b588ae62df',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:09'
+}
+{
+  statusCode: 404,
+  message: 'Board f4f2953d-67f1-4237-98d0-4e19b06d8478 does not exist',
+  url: 'http://localhost:4000/boards/f4f2953d-67f1-4237-98d0-4e19b06d8478',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:53'
+}
+{
+  statusCode: 404,
+  message: 'Task 7639887e-6b35-4ee4-bfbd-609058728c75 from board f2f7f7cb-4850-4f95-86af-05931fc23880 does not exist',
+  url: 'http://localhost:4000/boards/f2f7f7cb-4850-4f95-86af-05931fc23880/tasks/7639887e-6b35-4ee4-bfbd-609058728c75',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:53'
+}
+{
+  statusCode: 404,
+  message: 'Task b2bbf854-dec3-4959-98ce-d307c3f06802 from board 212b5f1a-4a43-40c5-8550-1ef3e4bc1a93 does not exist',
+  url: 'http://localhost:4000/boards/212b5f1a-4a43-40c5-8550-1ef3e4bc1a93/tasks/b2bbf854-dec3-4959-98ce-d307c3f06802',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:53'
+}
+{
+  statusCode: 404,
+  message: 'Task 548b6a22-3ed0-4e25-81e9-ed25844ffbfe from board 212b5f1a-4a43-40c5-8550-1ef3e4bc1a93 does not exist',
+  url: 'http://localhost:4000/boards/212b5f1a-4a43-40c5-8550-1ef3e4bc1a93/tasks/548b6a22-3ed0-4e25-81e9-ed25844ffbfe',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:53'
+}
+{
+  statusCode: 404,
+  message: 'Task 59317e4f-a69f-4d04-b388-247e25a5204f from board 212b5f1a-4a43-40c5-8550-1ef3e4bc1a93 does not exist',
+  url: 'http://localhost:4000/boards/212b5f1a-4a43-40c5-8550-1ef3e4bc1a93/tasks/59317e4f-a69f-4d04-b388-247e25a5204f',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:53'
+}
+{
+  statusCode: 404,
+  message: 'Task fcfa1b41-d9f3-478f-b3d5-9241d4babb5f from board 212b5f1a-4a43-40c5-8550-1ef3e4bc1a93 does not exist',
+  url: 'http://localhost:4000/boards/212b5f1a-4a43-40c5-8550-1ef3e4bc1a93/tasks/fcfa1b41-d9f3-478f-b3d5-9241d4babb5f',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:53'
+}
+{
+  statusCode: 404,
+  message: 'Task b0980c68-2529-4c70-b790-a44d7f813d67 from board 212b5f1a-4a43-40c5-8550-1ef3e4bc1a93 does not exist',
+  url: 'http://localhost:4000/boards/212b5f1a-4a43-40c5-8550-1ef3e4bc1a93/tasks/b0980c68-2529-4c70-b790-a44d7f813d67',
+  level: 'error',
+  timestamp: '2020-10-19 14:23:53'
+}
+{
+  statusCode: 404,
+  message: 'Board b4fa4a7b-9e2b-4292-a1b4-6ec33e3a8735 does not exist',
+  url: 'http://localhost:4000/boards/b4fa4a7b-9e2b-4292-a1b4-6ec33e3a8735',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:22'
+}
+{
+  statusCode: 404,
+  message: 'Task b54fb528-ee4b-4584-968f-baa93359894b from board fd3a9c10-7604-4b50-b195-d401cc33a9b4 does not exist',
+  url: 'http://localhost:4000/boards/fd3a9c10-7604-4b50-b195-d401cc33a9b4/tasks/b54fb528-ee4b-4584-968f-baa93359894b',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:22'
+}
+{
+  statusCode: 404,
+  message: 'Task 286aae62-9a40-48c4-af7a-8749728d4453 from board b23c78fc-23f9-44f8-8361-8de8a61be602 does not exist',
+  url: 'http://localhost:4000/boards/b23c78fc-23f9-44f8-8361-8de8a61be602/tasks/286aae62-9a40-48c4-af7a-8749728d4453',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:22'
+}
+{
+  statusCode: 404,
+  message: 'Task a86cdf0b-06e6-47f9-aad7-1ee25431b8b5 from board b23c78fc-23f9-44f8-8361-8de8a61be602 does not exist',
+  url: 'http://localhost:4000/boards/b23c78fc-23f9-44f8-8361-8de8a61be602/tasks/a86cdf0b-06e6-47f9-aad7-1ee25431b8b5',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:22'
+}
+{
+  statusCode: 404,
+  message: 'Task ca92ab44-5c1e-4d97-9918-227a85db8b2f from board b23c78fc-23f9-44f8-8361-8de8a61be602 does not exist',
+  url: 'http://localhost:4000/boards/b23c78fc-23f9-44f8-8361-8de8a61be602/tasks/ca92ab44-5c1e-4d97-9918-227a85db8b2f',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:22'
+}
+{
+  statusCode: 404,
+  message: 'Task e9b76150-93f1-43e7-aefc-d9647a98da2a from board b23c78fc-23f9-44f8-8361-8de8a61be602 does not exist',
+  url: 'http://localhost:4000/boards/b23c78fc-23f9-44f8-8361-8de8a61be602/tasks/e9b76150-93f1-43e7-aefc-d9647a98da2a',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:22'
+}
+{
+  statusCode: 404,
+  message: 'Task 57cc6078-326a-4241-a4a7-2ef9e6fb49f3 from board b23c78fc-23f9-44f8-8361-8de8a61be602 does not exist',
+  url: 'http://localhost:4000/boards/b23c78fc-23f9-44f8-8361-8de8a61be602/tasks/57cc6078-326a-4241-a4a7-2ef9e6fb49f3',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:22'
+}
+{
+  statusCode: 404,
+  message: 'Board 21b53f1c-799c-4b84-8e81-add3e906494e does not exist',
+  url: 'http://localhost:4000/boards/21b53f1c-799c-4b84-8e81-add3e906494e',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:56'
+}
+{
+  statusCode: 404,
+  message: 'Task 514191a1-6531-4370-9c5a-c6f36bb0dc94 from board 1ab9a5ab-dd03-4824-a633-e7158ae45aae does not exist',
+  url: 'http://localhost:4000/boards/1ab9a5ab-dd03-4824-a633-e7158ae45aae/tasks/514191a1-6531-4370-9c5a-c6f36bb0dc94',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:56'
+}
+{
+  statusCode: 404,
+  message: 'Task d8cca147-66ea-4dc2-8d02-d89e1ea6755b from board 806b3a2a-994e-4b3e-886b-d7bd884c1b76 does not exist',
+  url: 'http://localhost:4000/boards/806b3a2a-994e-4b3e-886b-d7bd884c1b76/tasks/d8cca147-66ea-4dc2-8d02-d89e1ea6755b',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:56'
+}
+{
+  statusCode: 404,
+  message: 'Task 964ff4d9-b9b2-4d4a-95e7-e0425d4ae52a from board 806b3a2a-994e-4b3e-886b-d7bd884c1b76 does not exist',
+  url: 'http://localhost:4000/boards/806b3a2a-994e-4b3e-886b-d7bd884c1b76/tasks/964ff4d9-b9b2-4d4a-95e7-e0425d4ae52a',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:56'
+}
+{
+  statusCode: 404,
+  message: 'Task 050b9a5d-2430-403c-a615-cf64d13de59b from board 806b3a2a-994e-4b3e-886b-d7bd884c1b76 does not exist',
+  url: 'http://localhost:4000/boards/806b3a2a-994e-4b3e-886b-d7bd884c1b76/tasks/050b9a5d-2430-403c-a615-cf64d13de59b',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:56'
+}
+{
+  statusCode: 404,
+  message: 'Task 88a7703c-2651-47bd-9888-3a9cf35aff05 from board 806b3a2a-994e-4b3e-886b-d7bd884c1b76 does not exist',
+  url: 'http://localhost:4000/boards/806b3a2a-994e-4b3e-886b-d7bd884c1b76/tasks/88a7703c-2651-47bd-9888-3a9cf35aff05',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:56'
+}
+{
+  statusCode: 404,
+  message: 'Task f4599b76-97a7-48d4-a408-cfd031368a41 from board 806b3a2a-994e-4b3e-886b-d7bd884c1b76 does not exist',
+  url: 'http://localhost:4000/boards/806b3a2a-994e-4b3e-886b-d7bd884c1b76/tasks/f4599b76-97a7-48d4-a408-cfd031368a41',
+  level: 'error',
+  timestamp: '2020-10-19 14:24:56'
+}

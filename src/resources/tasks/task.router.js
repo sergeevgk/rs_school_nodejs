@@ -4,50 +4,68 @@ const taskService = require('./task.service');
 
 router
   .route('/')
-  .get(async (req, res) => {
-    const { boardId } = req.params;
-    const tasks = await taskService.getAllTasksByBoard(boardId);
+  .get(async (req, res, next) => {
+    try {
+      const { boardId } = req.params;
+      const tasks = await taskService.getAllTasksByBoard(boardId);
 
-    return res.json(tasks.map(Task.toResponse));
+      return res.json(tasks.map(Task.toResponse));
+    } catch (err) {
+      return next(err);
+    }
   })
-  .post(async (req, res) => {
-    const { boardId } = req.params;
-    const { title, order, description, userId, columnId } = req.body;
-    const task = await taskService.createTask({
-      title,
-      order,
-      description,
-      userId,
-      boardId, // boardId from request
-      columnId
-    });
-
-    return res.json(Task.toResponse(task));
+  .post(async (req, res, next) => {
+    try {
+      const { boardId } = req.params;
+      const { title, order, description, userId, columnId } = req.body;
+      const task = await taskService.createTask({
+        title,
+        order,
+        description,
+        userId,
+        boardId, // boardId from request
+        columnId
+      });
+      return res.json(Task.toResponse(task));
+    } catch (err) {
+      return next(err);
+    }
   });
 
 router
   .route('/:taskId')
-  .get(async (req, res) => {
-    const { boardId, taskId } = req.params;
-    const task = await taskService.getTaskByIds(boardId, taskId);
-
-    if (!task) {
-      return res.status(404).json(`Task ${taskId} not found`);
+  .get(async (req, res, next) => {
+    try {
+      const { boardId, taskId } = req.params;
+      const task = await taskService.getTaskByIds(boardId, taskId);
+      return res.json(Task.toResponse(task));
+    } catch (err) {
+      return next(err);
     }
-
-    return res.json(Task.toResponse(task));
   })
-  .put(async (req, res) => {
-    const { boardId, taskId } = req.params;
-    const updatedTask = await taskService.updateTask(boardId, taskId, req.body);
+  .put(async (req, res, next) => {
+    try {
+      const { boardId, taskId } = req.params;
+      const updatedTask = await taskService.updateTask(
+        boardId,
+        taskId,
+        req.body
+      );
 
-    return res.json(Task.toResponse(updatedTask));
+      return res.json(Task.toResponse(updatedTask));
+    } catch (err) {
+      return next(err);
+    }
   })
-  .delete(async (req, res) => {
-    const { boardId, taskId } = req.params;
-    const deletedTaskId = await taskService.deleteTask(boardId, taskId);
+  .delete(async (req, res, next) => {
+    try {
+      const { boardId, taskId } = req.params;
+      const deletedTaskId = await taskService.deleteTask(boardId, taskId);
 
-    return res.json({ id: deletedTaskId });
+      return res.json({ id: deletedTaskId });
+    } catch (err) {
+      return next(err);
+    }
   });
 
 module.exports = router;

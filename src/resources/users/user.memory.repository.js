@@ -24,36 +24,26 @@ const createUser = async ({ name, login, password }) => {
 };
 
 const updateUser = async ({ id, name, login, password }) => {
-  try {
-    const index = users.findIndex(user => user.id === id);
-    if (index === -1) {
-      return {};
-    }
-    users[index] = new User({
-      id,
-      name,
-      login,
-      password
-    });
-    return users[index];
-  } catch (error) {
-    console.log(error);
-    // throw new Error(`User ${id} update error.`);
+  const index = users.findIndex(user => user.id === id);
+  if (index === -1) {
+    return null;
   }
+  users[index] = new User({
+    id,
+    name,
+    login,
+    password
+  });
+  return users[index];
 };
 
 const deleteUser = id => {
-  try {
-    const index = users.findIndex(user => user.id === id);
-    if (index === -1) {
-      return {};
-    }
-    users.splice(index, 1);
-    return id;
-  } catch (error) {
-    console.log(error);
-    // throw new Error(`User ${id} delete error.`);
+  const index = users.findIndex(user => user.id === id);
+  if (index === -1) {
+    return null;
   }
+  users.splice(index, 1);
+  return id;
 };
 
 // init();

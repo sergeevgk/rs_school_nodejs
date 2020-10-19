@@ -1,5 +1,4 @@
 const Task = require('./task.model');
-// const uuid = require('uuid');
 
 const tasks = [];
 
@@ -39,62 +38,45 @@ const createTask = async taskData => {
 };
 
 const updateTask = async (boardId, taskId, taskData) => {
-  try {
-    const index = tasks.findIndex(
-      task => task.id === taskId && task.boardId === boardId
-    );
-    if (index === -1) {
-      return {};
-    }
-    tasks[index] = new Task({
-      id: taskId,
-      title: taskData.title,
-      order: taskData.order,
-      description: taskData.description,
-      userId: taskData.userId,
-      boardId,
-      columnId: taskData.columnId
-    });
-    return tasks[index];
-  } catch (error) {
-    console.log(error);
-    // throw
+  const index = tasks.findIndex(
+    task => task.id === taskId && task.boardId === boardId
+  );
+  if (index === -1) {
+    return {};
   }
+  tasks[index] = new Task({
+    id: taskId,
+    title: taskData.title,
+    order: taskData.order,
+    description: taskData.description,
+    userId: taskData.userId,
+    boardId,
+    columnId: taskData.columnId
+  });
+  return tasks[index];
 };
 
 const deleteTask = (boardId, taskId) => {
-  try {
-    const index = tasks.findIndex(
-      task => task.id === taskId && task.boardId === boardId
-    );
-    if (index === -1) {
-      return {};
-    }
-    tasks.splice(index, 1);
-    return taskId;
-  } catch (error) {
-    console.log(error);
+  const index = tasks.findIndex(
+    task => task.id === taskId && task.boardId === boardId
+  );
+  if (index === -1) {
+    return {};
   }
+  tasks.splice(index, 1);
+  return taskId;
 };
 
 const deleteAllTasksFromBoard = boardId => {
-  try {
-    const tasksToDelete = tasks.filter(task => task.boardId === boardId);
-    tasksToDelete.forEach(task => tasks.splice(tasks.indexOf(task), 1));
-  } catch (error) {
-    console.log(error);
-  }
+  const tasksToDelete = tasks.filter(task => task.boardId === boardId);
+  tasksToDelete.forEach(task => tasks.splice(tasks.indexOf(task), 1));
 };
 
 const unassignUserFromTasks = async userId => {
-  try {
-    for (let i = 0; i < tasks.length; i++) {
-      if (tasks[i].userId === userId) {
-        tasks[i].userId = null;
-      }
+  for (let i = 0; i < tasks.length; i++) {
+    if (tasks[i].userId === userId) {
+      tasks[i].userId = null;
     }
-  } catch (error) {
-    console.log(error);
   }
 };
 

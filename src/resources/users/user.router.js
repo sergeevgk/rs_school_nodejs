@@ -5,47 +5,63 @@ const { unassignUserFromTasks } = require('../tasks/task.service');
 
 router
   .route('/')
-  .get(async (req, res) => {
-    const users = await userService.getAll();
+  .get(async (req, res, next) => {
+    try {
+      const users = await userService.getAll();
 
-    return res.json(users.map(User.toResponse));
+      return res.json(users.map(User.toResponse));
+    } catch (err) {
+      return next(err);
+    }
   })
-  .post(async (req, res) => {
-    const newUser = await userService.createUser(req.body);
+  .post(async (req, res, next) => {
+    try {
+      const newUser = await userService.createUser(req.body);
 
-    return res.json(User.toResponse(newUser));
+      return res.json(User.toResponse(newUser));
+    } catch (err) {
+      return next(err);
+    }
   });
 
 router
   .route('/:id')
-  .get(async (req, res) => {
-    const { id } = req.params;
-    const user = await userService.getUserById(id);
+  .get(async (req, res, next) => {
+    try {
+      const { id } = req.params;
+      const user = await userService.getUserById(id);
 
-    if (!user) {
-      return res.status(404).json(`User ${id} not found`);
+      return res.json(User.toResponse(user));
+    } catch (err) {
+      return next(err);
     }
-
-    return res.json(User.toResponse(user));
   })
-  .put(async (req, res) => {
-    const { id } = req.params;
-    const { name, login, password } = req.body;
-    const updatedUser = await userService.updateUser({
-      id,
-      name,
-      login,
-      password
-    });
+  .put(async (req, res, next) => {
+    try {
+      const { id } = req.params;
+      const { name, login, password } = req.body;
+      const updatedUser = await userService.updateUser({
+        id,
+        name,
+        login,
+        password
+      });
 
-    return res.json(User.toResponse(updatedUser));
+      return res.json(User.toResponse(updatedUser));
+    } catch (err) {
+      return next(err);
+    }
   })
-  .delete(async (req, res) => {
-    const { id } = req.params;
-    const deletedUserId = await userService.deleteUser(id);
-    unassignUserFromTasks(deletedUserId);
+  .delete(async (req, res, next) => {
+    try {
+      const { id } = req.params;
+      const deletedUserId = await userService.deleteUser(id);
+      await unassignUserFromTasks(deletedUserId);
 
-    return res.json({ id: deletedUserId });
+      return res.json({ id: deletedUserId });
+    } catch (err) {
+      return next(err);
+    }
   });
 
 module.exports = router;

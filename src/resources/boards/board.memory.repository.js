@@ -23,34 +23,25 @@ const createBoard = ({ title, columns }) => {
 };
 
 const updateBoard = ({ id, title, columns }) => {
-  try {
-    const index = boards.findIndex(board => board.id === id);
-    if (index === -1) {
-      return {};
-    }
-    boards[index] = new Board({
-      id,
-      title,
-      columns
-    });
-    return boards[index];
-  } catch (error) {
-    console.log(error);
-    // throw
+  const index = boards.findIndex(board => board.id === id);
+  if (index === -1) {
+    return {};
   }
+  boards[index] = new Board({
+    id,
+    title,
+    columns
+  });
+  return boards[index];
 };
 
 const deleteBoard = id => {
-  try {
-    const index = boards.findIndex(user => user.id === id);
-    if (index === -1) {
-      return {};
-    }
-    boards.splice(index, 1);
-    return id;
-  } catch (error) {
-    console.log(error);
+  const index = boards.findIndex(user => user.id === id);
+  if (index === -1) {
+    return {};
   }
+  boards.splice(index, 1);
+  return id;
 };
 
 // init();

@@ -21,9 +21,6 @@ const configuration = {
       format.timestamp({ format: 'YYYY-MM-DD HH:mm:ss' }),
       format.json(),
       format.prettyPrint()
-      // format.printf(
-      //   info => `[${info.timestamp}] ${info.level}: ${info.message}`
-      // )
     )
   }
 };

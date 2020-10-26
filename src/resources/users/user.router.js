@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const User = require('./user.model');
+const User = require('./user.db.model');
 const userService = require('./user.service');
 const { unassignUserFromTasks } = require('../tasks/task.service');
 

@@ -1,4 +1,5 @@
-const usersRepo = require('./user.memory.repository');
+// const usersRepo = require('./user.memory.repository');
+const usersRepo = require('./user.db.repository');
 const { ErrorInfo } = require('../../helpers/error-handler');
 
 const getAll = () => usersRepo.getAll();

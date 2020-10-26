@@ -1,4 +1,4 @@
-const tasksRepo = require('./task.memory.repository');
+const tasksRepo = require('./task.db.repository');
 const { ErrorInfo } = require('../../helpers/error-handler');
 
 const getAllTasksByBoard = id => {
@@ -27,8 +27,8 @@ const updateTask = async (boardId, taskId, data) => {
   }
   return task;
 };
-const deleteTask = (boardId, taskId) => {
-  const deletedTaskId = tasksRepo.deleteTask(boardId, taskId);
+const deleteTask = async (boardId, taskId) => {
+  const deletedTaskId = await tasksRepo.deleteTask(boardId, taskId);
   if (!deletedTaskId) {
     throw new ErrorInfo(
       404,
@@ -37,10 +37,10 @@ const deleteTask = (boardId, taskId) => {
   }
   return deletedTaskId;
 };
-const deleteAllTasksFromBoard = boardId => {
+const deleteAllTasksFromBoard = async boardId => {
   return tasksRepo.deleteAllTasksFromBoard(boardId);
 };
-const unassignUserFromTasks = userId => {
+const unassignUserFromTasks = async userId => {
   return tasksRepo.unassignUserFromTasks(userId);
 };
 

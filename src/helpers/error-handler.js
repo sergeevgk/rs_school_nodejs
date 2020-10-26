@@ -1,3 +1,5 @@
+const { Error } = require('mongoose');
+
 class ErrorInfo extends Error {
   constructor(statusCode, message) {
     super();
@@ -7,8 +9,14 @@ class ErrorInfo extends Error {
 }
 
 const processError = (err, res) => {
-  const { statusCode, message } = err;
-  res.status(statusCode).send(`Error: status code ${statusCode}. ${message}.`);
+  if (err instanceof ErrorInfo) {
+    const { statusCode, message } = err;
+    res
+      .status(statusCode)
+      .send(`Error: status code ${statusCode}. ${message}.`);
+  } else {
+    res.status(500).send(`Error: status code ${500}. Internal server error.`);
+  }
 };
 
 module.exports = {

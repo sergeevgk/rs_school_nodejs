@@ -3,8 +3,8 @@ const winston = require('../common/config-winston');
 const log = (req, err) => {
   if (err) {
     const errorLog = {
-      statusCode: err.statusCode,
-      message: err.message
+      statusCode: err.statusCode || '500',
+      message: err.message || 'Internal server error'
     };
     if (req) {
       errorLog.url = `${req.protocol}://${req.get('host')}${req.originalUrl}`;

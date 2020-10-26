@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Board = require('./board.model');
+const Board = require('./board.db.model');
 const boardService = require('./board.service');
 const { deleteAllTasksFromBoard } = require('../tasks/task.service');
 

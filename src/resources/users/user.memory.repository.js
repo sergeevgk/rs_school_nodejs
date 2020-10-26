@@ -13,12 +13,15 @@ const users = [];
 //   }
 // };
 
-const getAll = async () => users;
+const getAll = async () => {
+  // throw new Error();
+  return users;
+};
 
 const getUserById = async id => users.filter(user => user.id === id)[0];
 
-const createUser = async ({ name, login, password }) => {
-  const user = new User({ name, login, password });
+const createUser = async userData => {
+  const user = new User(userData);
   users.push(user);
   return user;
 };

@@ -1,112 +1,5741 @@
 {
   statusCode: '500',
-  message: 'Internal server error',
-  url: 'http://localhost:4000/boards/8bf22fab-3062-4bcb-8ac0-f74d579da533/tasks',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
   level: 'error',
-  timestamp: '2020-10-26 20:10:49'
+  timestamp: '2020-11-01 21:26:38'
 }
 {
   statusCode: '500',
-  message: 'Internal server error',
-  url: 'http://localhost:4000/boards/8bf22fab-3062-4bcb-8ac0-f74d579da533/tasks',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
   level: 'error',
-  timestamp: '2020-10-26 20:10:49'
+  timestamp: '2020-11-01 21:26:38'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:38'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
 }
 {
   statusCode: 404,
-  message: 'Task 043d344f-5c3e-43cb-9bbf-5023381ef8b9 from board 8bf22fab-3062-4bcb-8ac0-f74d579da533 does not exist',
-  url: 'http://localhost:4000/boards/8bf22fab-3062-4bcb-8ac0-f74d579da533/tasks/043d344f-5c3e-43cb-9bbf-5023381ef8b9',
+  message: 'User 123 does not exist',
+  url: 'http://localhost:4000/users/123',
   level: 'error',
-  timestamp: '2020-10-26 20:10:49'
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:39'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:26:40'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
 }
 {
   statusCode: 404,
-  message: 'Board 98e1b1be-e4b3-49db-a5f8-5678b471d110 does not exist',
-  url: 'http://localhost:4000/boards/98e1b1be-e4b3-49db-a5f8-5678b471d110',
+  message: 'User 123 does not exist',
+  url: 'http://localhost:4000/users/123',
   level: 'error',
-  timestamp: '2020-10-26 20:10:50'
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:36'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:29:37'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:43:10'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 21:52:05'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:09:31'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 405,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: 402,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:11:23'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:03'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:03'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:03'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:03'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:03'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:03'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:03'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:03'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:03'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:03'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:12:04'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:15:51'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:16:06'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:21:20'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:04'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:23:05'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:03'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: 411,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:04'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:36'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:37'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:38'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:38'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:38'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:38'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:24:38'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 410,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:02'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:03'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:03'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:25:03'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:26'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:27:27'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: '500',
+  message: 'data and hash arguments required',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:31:22'
 }
 {
   statusCode: 404,
-  message: 'Task c82b7d8e-7561-418a-ab7f-69ba7f2e2f39 from board 5e84c629-7a6e-4e46-a426-b33f3736c746 does not exist',
-  url: 'http://localhost:4000/boards/5e84c629-7a6e-4e46-a426-b33f3736c746/tasks/c82b7d8e-7561-418a-ab7f-69ba7f2e2f39',
+  message: 'User with login undefined does not exist',
+  url: 'http://localhost:4000/login?login=admin&password=admin',
   level: 'error',
-  timestamp: '2020-10-26 20:10:50'
+  timestamp: '2020-11-01 22:35:19'
 }
 {
   statusCode: 404,
-  message: 'Task 0ecbf55d-5a51-4239-b6a7-9e1ffddfe1f7 from board 5e84c629-7a6e-4e46-a426-b33f3736c746 does not exist',
-  url: 'http://localhost:4000/boards/5e84c629-7a6e-4e46-a426-b33f3736c746/tasks/0ecbf55d-5a51-4239-b6a7-9e1ffddfe1f7',
+  message: 'User with login undefined does not exist',
+  url: 'http://localhost:4000/login?login=admin&password=admin',
   level: 'error',
-  timestamp: '2020-10-26 20:10:50'
+  timestamp: '2020-11-01 22:38:01'
 }
 {
   statusCode: 404,
-  message: 'Task 240f1a16-fc81-43f6-bd81-eaa4e1ddfee2 from board 5e84c629-7a6e-4e46-a426-b33f3736c746 does not exist',
-  url: 'http://localhost:4000/boards/5e84c629-7a6e-4e46-a426-b33f3736c746/tasks/240f1a16-fc81-43f6-bd81-eaa4e1ddfee2',
+  message: 'User with login undefined does not exist',
+  url: 'http://localhost:4000/login',
   level: 'error',
-  timestamp: '2020-10-26 20:10:50'
+  timestamp: '2020-11-01 22:43:10'
 }
 {
   statusCode: 404,
-  message: 'Task 6f7b38b8-9437-4285-9e6d-8f274fc25065 from board 5e84c629-7a6e-4e46-a426-b33f3736c746 does not exist',
-  url: 'http://localhost:4000/boards/5e84c629-7a6e-4e46-a426-b33f3736c746/tasks/6f7b38b8-9437-4285-9e6d-8f274fc25065',
+  message: 'User with login undefined does not exist',
+  url: 'http://localhost:4000/login',
   level: 'error',
-  timestamp: '2020-10-26 20:10:50'
+  timestamp: '2020-11-01 22:44:21'
 }
 {
   statusCode: 404,
-  message: 'Task e32dcecf-69d7-4e15-925d-ed97ee0ebf52 from board 5e84c629-7a6e-4e46-a426-b33f3736c746 does not exist',
-  url: 'http://localhost:4000/boards/5e84c629-7a6e-4e46-a426-b33f3736c746/tasks/e32dcecf-69d7-4e15-925d-ed97ee0ebf52',
+  message: 'User with login undefined does not exist',
+  url: 'http://localhost:4000/login',
   level: 'error',
-  timestamp: '2020-10-26 20:10:50'
+  timestamp: '2020-11-01 22:50:51'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:11'
+}
+{
+  statusCode: 403,
+  message: 'Forbidden',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 403,
+  message: 'Forbidden',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 403,
+  message: 'Forbidden',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/boards/undefined',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:24'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 22:56:25'
+}
+{
+  statusCode: 403,
+  message: 'Forbidden',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:57:11'
+}
+{
+  statusCode: 403,
+  message: 'Forbidden',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2020-11-01 22:57:30'
 }
 {
   statusCode: 404,
-  message: 'Task 7ff28a95-e413-4635-b3b8-550da06dcabc from board 72bcdc16-940b-453b-9e99-ca6d5a67d1f5 does not exist',
-  url: 'http://localhost:4000/boards/72bcdc16-940b-453b-9e99-ca6d5a67d1f5/tasks/7ff28a95-e413-4635-b3b8-550da06dcabc',
+  message: 'Task 7fec5e28-66dc-4f6b-8214-dc5ded387219 from board 002f8ab6-fbf9-4205-9b5a-b11e37cf879d does not exist',
+  url: 'http://localhost:4000/boards/002f8ab6-fbf9-4205-9b5a-b11e37cf879d/tasks/7fec5e28-66dc-4f6b-8214-dc5ded387219',
   level: 'error',
-  timestamp: '2020-10-26 20:12:26'
+  timestamp: '2020-11-01 23:05:25'
 }
 {
   statusCode: 404,
-  message: 'Board ff31e9e7-da04-4376-b293-4bb7c5c68fb7 does not exist',
-  url: 'http://localhost:4000/boards/ff31e9e7-da04-4376-b293-4bb7c5c68fb7',
+  message: 'Board 688c24f6-55c6-4d3e-8b06-31852b7a1528 does not exist',
+  url: 'http://localhost:4000/boards/688c24f6-55c6-4d3e-8b06-31852b7a1528',
   level: 'error',
-  timestamp: '2020-10-26 20:12:26'
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
 }
 {
   statusCode: 404,
-  message: 'Task dbe4558b-35d6-4698-9b89-d94638af8a24 from board 5537d166-7d37-4ee4-b874-5d6b2a8c2d78 does not exist',
-  url: 'http://localhost:4000/boards/5537d166-7d37-4ee4-b874-5d6b2a8c2d78/tasks/dbe4558b-35d6-4698-9b89-d94638af8a24',
+  message: 'Task cb408a22-b8cf-4249-a55c-9a5e9ffb8264 from board e98ac4d9-2522-4a7d-bb26-d5bfd61d075c does not exist',
+  url: 'http://localhost:4000/boards/e98ac4d9-2522-4a7d-bb26-d5bfd61d075c/tasks/cb408a22-b8cf-4249-a55c-9a5e9ffb8264',
   level: 'error',
-  timestamp: '2020-10-26 20:12:27'
+  timestamp: '2020-11-01 23:05:25'
 }
 {
   statusCode: 404,
-  message: 'Task 64f8c56c-2e6f-44db-b6d0-618dd9530959 from board 5537d166-7d37-4ee4-b874-5d6b2a8c2d78 does not exist',
-  url: 'http://localhost:4000/boards/5537d166-7d37-4ee4-b874-5d6b2a8c2d78/tasks/64f8c56c-2e6f-44db-b6d0-618dd9530959',
+  message: 'Task ab5775d4-bc88-4879-9e0e-f8097c78457a from board e98ac4d9-2522-4a7d-bb26-d5bfd61d075c does not exist',
+  url: 'http://localhost:4000/boards/e98ac4d9-2522-4a7d-bb26-d5bfd61d075c/tasks/ab5775d4-bc88-4879-9e0e-f8097c78457a',
   level: 'error',
-  timestamp: '2020-10-26 20:12:27'
+  timestamp: '2020-11-01 23:05:25'
 }
 {
   statusCode: 404,
-  message: 'Task 90ff4bc1-b0ed-410f-9eb4-9c0f402f3b4a from board 5537d166-7d37-4ee4-b874-5d6b2a8c2d78 does not exist',
-  url: 'http://localhost:4000/boards/5537d166-7d37-4ee4-b874-5d6b2a8c2d78/tasks/90ff4bc1-b0ed-410f-9eb4-9c0f402f3b4a',
+  message: 'Task 2349e689-0466-4d99-8275-c208663ebaf4 from board e98ac4d9-2522-4a7d-bb26-d5bfd61d075c does not exist',
+  url: 'http://localhost:4000/boards/e98ac4d9-2522-4a7d-bb26-d5bfd61d075c/tasks/2349e689-0466-4d99-8275-c208663ebaf4',
   level: 'error',
-  timestamp: '2020-10-26 20:12:27'
+  timestamp: '2020-11-01 23:05:25'
 }
 {
   statusCode: 404,
-  message: 'Task 5bd0f213-9ec7-4008-8e34-e95a4c6b5d7d from board 5537d166-7d37-4ee4-b874-5d6b2a8c2d78 does not exist',
-  url: 'http://localhost:4000/boards/5537d166-7d37-4ee4-b874-5d6b2a8c2d78/tasks/5bd0f213-9ec7-4008-8e34-e95a4c6b5d7d',
+  message: 'Task b34d8b7e-e0a5-4303-9912-48a0611234c0 from board e98ac4d9-2522-4a7d-bb26-d5bfd61d075c does not exist',
+  url: 'http://localhost:4000/boards/e98ac4d9-2522-4a7d-bb26-d5bfd61d075c/tasks/b34d8b7e-e0a5-4303-9912-48a0611234c0',
   level: 'error',
-  timestamp: '2020-10-26 20:12:27'
+  timestamp: '2020-11-01 23:05:25'
 }
 {
   statusCode: 404,
-  message: 'Task 4cbddfae-fb99-45db-987b-b6d080e4abac from board 5537d166-7d37-4ee4-b874-5d6b2a8c2d78 does not exist',
-  url: 'http://localhost:4000/boards/5537d166-7d37-4ee4-b874-5d6b2a8c2d78/tasks/4cbddfae-fb99-45db-987b-b6d080e4abac',
+  message: 'Task 7d3f90c7-df23-4204-a236-1cb79bb24c69 from board e98ac4d9-2522-4a7d-bb26-d5bfd61d075c does not exist',
+  url: 'http://localhost:4000/boards/e98ac4d9-2522-4a7d-bb26-d5bfd61d075c/tasks/7d3f90c7-df23-4204-a236-1cb79bb24c69',
   level: 'error',
-  timestamp: '2020-10-26 20:12:27'
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:25'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:47'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:47'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:54'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:05:54'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:06:09'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:06:09'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:07:00'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:07:00'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:07:08'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:07:08'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:07:30'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:07:30'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:07:33'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:07:33'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:07:52'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:07:52'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:07'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:07'
+}
+{
+  statusCode: 404,
+  message: 'Task a1df29e0-8db3-412e-af1f-7505d58c1716 from board 2d713e9b-91de-4630-b288-40359fc4dd89 does not exist',
+  url: 'http://localhost:4000/boards/2d713e9b-91de-4630-b288-40359fc4dd89/tasks/a1df29e0-8db3-412e-af1f-7505d58c1716',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:20'
+}
+{
+  statusCode: 404,
+  message: 'Board 1fe59413-330c-4b4e-8f3a-4428e3a0539e does not exist',
+  url: 'http://localhost:4000/boards/1fe59413-330c-4b4e-8f3a-4428e3a0539e',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345/tasks/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:20'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/boards/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 404,
+  message: 'Task ab65e7f2-50f6-483e-a343-6bb0953107ea from board d1dbab09-17a6-458c-a37c-8a043d921bb7 does not exist',
+  url: 'http://localhost:4000/boards/d1dbab09-17a6-458c-a37c-8a043d921bb7/tasks/ab65e7f2-50f6-483e-a343-6bb0953107ea',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 404,
+  message: 'Task 1f9f0525-7fd4-4d84-b650-e2717874009a from board d1dbab09-17a6-458c-a37c-8a043d921bb7 does not exist',
+  url: 'http://localhost:4000/boards/d1dbab09-17a6-458c-a37c-8a043d921bb7/tasks/1f9f0525-7fd4-4d84-b650-e2717874009a',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 404,
+  message: 'Task ac984ee5-64b5-4b5f-bfc5-3d6d413b9c26 from board d1dbab09-17a6-458c-a37c-8a043d921bb7 does not exist',
+  url: 'http://localhost:4000/boards/d1dbab09-17a6-458c-a37c-8a043d921bb7/tasks/ac984ee5-64b5-4b5f-bfc5-3d6d413b9c26',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 404,
+  message: 'Task 97a60d31-7f6c-4d5c-be84-3c86b3bc8f18 from board d1dbab09-17a6-458c-a37c-8a043d921bb7 does not exist',
+  url: 'http://localhost:4000/boards/d1dbab09-17a6-458c-a37c-8a043d921bb7/tasks/97a60d31-7f6c-4d5c-be84-3c86b3bc8f18',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 404,
+  message: 'Task 8a55d03a-246b-40cb-90b7-0e3ff26258da from board d1dbab09-17a6-458c-a37c-8a043d921bb7 does not exist',
+  url: 'http://localhost:4000/boards/d1dbab09-17a6-458c-a37c-8a043d921bb7/tasks/8a55d03a-246b-40cb-90b7-0e3ff26258da',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/123',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users/12345',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:21'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:39'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: ns not found',
+  level: 'error',
+  timestamp: '2020-11-01 23:08:39'
 }

@@ -1,15 +1,19 @@
 const express = require('express');
-const { finished } = require('stream');
+require('express-async-errors');
 const swaggerUI = require('swagger-ui-express');
 const path = require('path');
 const YAML = require('yamljs');
 const userRouter = require('./resources/users/user.router');
 const boardRouter = require('./resources/boards/board.router');
 const taskRouter = require('./resources/tasks/task.router');
+const authRouter = require('./resources/authentication/auth.router');
+const authChecker = require('./helpers/authCheck');
 const { log } = require('./helpers/logger');
+const { finished } = require('stream');
 const { processError } = require('./helpers/error-handler');
 
 const app = express();
+app.disable('x-powered-by');
 const swaggerDocument = YAML.load(path.join(__dirname, '../doc/api.yaml'));
 
 app.use(express.json());
@@ -30,11 +34,13 @@ app.use('/', (req, res, next) => {
   next();
 });
 
-app.use('/users', userRouter);
+app.use('/login', authRouter);
 
-app.use('/boards', boardRouter);
+app.use('/users', authChecker, userRouter);
 
-boardRouter.use('/:boardId/tasks', taskRouter);
+app.use('/boards', authChecker, boardRouter);
+
+boardRouter.use('/:boardId/tasks', authChecker, taskRouter);
 
 // handle & log errors
 app.use((err, req, res, next) => {

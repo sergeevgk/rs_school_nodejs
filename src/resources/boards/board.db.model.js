@@ -13,17 +13,20 @@ const ColumnSchema = new mongoose.Schema(
   { versionKey: false }
 );
 
-const BoardSchema = new mongoose.Schema({
-  _id: {
-    type: String,
-    default: uuid
+const BoardSchema = new mongoose.Schema(
+  {
+    _id: {
+      type: String,
+      default: uuid
+    },
+    title: String,
+    columns: {
+      type: [ColumnSchema],
+      default: []
+    }
   },
-  title: String,
-  columns: {
-    type: [ColumnSchema],
-    default: []
-  }
-});
+  { versionKey: false }
+);
 
 BoardSchema.statics.toResponse = board => {
   const { _id, title, columns } = board;

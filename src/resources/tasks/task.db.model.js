@@ -3,21 +3,24 @@ const uuid = require('uuid');
 
 const { Schema } = mongoose;
 
-const schema = new Schema({
-  _id: {
-    type: String,
-    default: uuid
+const schema = new Schema(
+  {
+    _id: {
+      type: String,
+      default: uuid
+    },
+    title: String,
+    order: {
+      type: Number,
+      default: 0
+    },
+    description: String,
+    userId: String,
+    boardId: String,
+    columnId: String
   },
-  title: String,
-  order: {
-    type: Number,
-    default: 0
-  },
-  description: String,
-  userId: String,
-  boardId: String,
-  columnId: String
-});
+  { versionKey: false }
+);
 
 schema.statics.toResponse = task => {
   const { _id, title, order, description, userId, boardId, columnId } = task;

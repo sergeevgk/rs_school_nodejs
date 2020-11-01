@@ -15,17 +15,17 @@ const log = (req, err) => {
       url: `${req.protocol}://${req.get('host')}${req.originalUrl}`,
       method: req.method,
       query: JSON.stringify(req.query),
-      body: JSON.stringify(toSecurityLog(req.body))
+      body: JSON.stringify(req.body)
     };
     winston.info(logInfo);
   }
 };
 
-const toSecurityLog = body => {
-  if (body.password) {
-    return { ...body, password: "this log does not show user's password" };
-  }
-  return body;
-};
+// const toSecurityLog = body => {
+//   if (body.password) {
+//     return { ...body, password: "this log does not show user's password" };
+//   }
+//   return body;
+// };
 
 module.exports = { log };

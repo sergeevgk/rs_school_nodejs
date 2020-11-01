@@ -8,6 +8,10 @@ const getUserById = async id => {
   return User.findOne({ _id: id });
 };
 
+const getUserByLogin = async login => {
+  return User.findOne({ login });
+};
+
 const createUser = async userData => {
   return User.create(userData);
 };
@@ -20,4 +24,11 @@ const deleteUser = async id => {
   return (await User.deleteOne({ _id: id })).ok === 1 ? id : null;
 };
 
-module.exports = { getAll, getUserById, createUser, updateUser, deleteUser };
+module.exports = {
+  getAll,
+  getUserById,
+  getUserByLogin,
+  createUser,
+  updateUser,
+  deleteUser
+};

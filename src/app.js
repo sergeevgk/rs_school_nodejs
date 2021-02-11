@@ -11,6 +11,7 @@ const authChecker = require('./helpers/authCheck');
 const { log } = require('./helpers/logger');
 const { finished } = require('stream');
 const { processError } = require('./helpers/error-handler');
+const { INTERNAL_SERVER_ERROR } = require('http-status-codes');
 
 const app = express();
 app.disable('x-powered-by');
@@ -52,7 +53,7 @@ app.use((err, req, res, next) => {
 // handle & log uncaught exceptions
 process.on('uncaughtException', error => {
   const errorBody = {
-    statusCode: 500,
+    statusCode: INTERNAL_SERVER_ERROR,
     message: `Uncaught Exception: ${error.message}`
   };
   log(null, errorBody);
@@ -65,7 +66,7 @@ process.on('uncaughtException', error => {
 // handle and log unhandled rejections
 process.on('unhandledRejection', reason => {
   const errorBody = {
-    statusCode: 500,
+    statusCode: INTERNAL_SERVER_ERROR,
     message: `Unhandled Rejection: ${reason.message}`
   };
   log(null, errorBody);

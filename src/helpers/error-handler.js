@@ -1,4 +1,5 @@
 const { Error } = require('mongoose');
+const { INTERNAL_SERVER_ERROR } = require('http-status-codes');
 
 class ErrorInfo extends Error {
   constructor(statusCode, message) {
@@ -15,7 +16,11 @@ const processError = (err, res) => {
       .status(statusCode)
       .send(`Error: status code ${statusCode}. ${message}.`);
   } else {
-    res.status(500).send(`Error: status code ${500}. Internal server error.`);
+    res
+      .status(INTERNAL_SERVER_ERROR)
+      .send(
+        `Error: status code ${INTERNAL_SERVER_ERROR}. Internal server error.`
+      );
   }
 };
 

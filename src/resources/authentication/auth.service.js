@@ -13,7 +13,7 @@ const getUserByAuthData = async data => {
 const getToken = userData => {
   const { userId, login } = userData;
   const token = jwt.sign({ userId, login }, JWT_SECRET_KEY, {
-    expiresIn: '1h'
+    expiresIn: '5m'
   });
   return token;
 };

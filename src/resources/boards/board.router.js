@@ -1,5 +1,4 @@
 const router = require('express').Router();
-const Board = require('./board.db.model');
 const boardService = require('./board.service');
 const { deleteAllTasksFromBoard } = require('../tasks/task.service');
 
@@ -8,12 +7,12 @@ router
   .get(async (req, res) => {
     const boards = await boardService.getAll();
 
-    return res.json(boards.map(Board.toResponse));
+    return res.json(boards);
   })
   .post(async (req, res) => {
     const newBoard = await boardService.createBoard(req.body);
 
-    return res.json(Board.toResponse(newBoard));
+    return res.json(newBoard);
   });
 
 router
@@ -21,7 +20,7 @@ router
   .get(async (req, res) => {
     const { id } = req.params;
     const board = await boardService.getBoardById(id);
-    return res.json(Board.toResponse(board));
+    return res.json(board);
   })
   .put(async (req, res) => {
     const { id } = req.params;
@@ -32,7 +31,7 @@ router
       columns
     });
 
-    return res.json(Board.toResponse(updatedBoard));
+    return res.json(updatedBoard);
   })
   .delete(async (req, res) => {
     const { id } = req.params;

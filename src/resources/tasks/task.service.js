@@ -1,37 +1,46 @@
 const tasksRepo = require('./task.db.repository');
+const Task = require('./task.db.model');
 const { ErrorInfo } = require('../../helpers/error-handler');
+const { NOT_FOUND, INTERNAL_SERVER_ERROR } = require('http-status-codes');
 
 const getAllTasksByBoard = id => {
-  return tasksRepo.getAllTasksByBoard(id);
+  return tasksRepo.getAllTasksByBoard(id).map(Task.toResponse);
 };
 const getTaskByIds = async (boardId, taskId) => {
   const task = await tasksRepo.getTaskByIds(boardId, taskId);
   if (!task) {
     throw new ErrorInfo(
-      404,
+      NOT_FOUND,
       `Task ${taskId} from board ${boardId} does not exist`
     );
   }
-  return task;
+  return Task.toResponse(task);
 };
 const createTask = data => {
-  return tasksRepo.createTask(data);
+  const task = tasksRepo.createTask(data);
+  if (!task) {
+    throw new ErrorInfo(
+      INTERNAL_SERVER_ERROR,
+      'Task creation resulted in error'
+    );
+  }
+  return Task.toResponse(task);
 };
 const updateTask = async (boardId, taskId, data) => {
   const task = await tasksRepo.updateTask(boardId, taskId, data);
   if (!task) {
     throw new ErrorInfo(
-      404,
+      NOT_FOUND,
       `Task ${taskId} from board ${boardId} does not exist`
     );
   }
-  return task;
+  return Task.toResponse(task);
 };
 const deleteTask = async (boardId, taskId) => {
   const deletedTaskId = await tasksRepo.deleteTask(boardId, taskId);
   if (!deletedTaskId) {
     throw new ErrorInfo(
-      404,
+      NOT_FOUND,
       `Task ${taskId} from board ${boardId} does not exist`
     );
   }

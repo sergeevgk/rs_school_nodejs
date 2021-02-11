@@ -1,9 +1,10 @@
 const winston = require('../common/config-winston');
+const { INTERNAL_SERVER_ERROR } = require('http-status-codes');
 
 const log = (req, err) => {
   if (err) {
     const errorLog = {
-      statusCode: err.statusCode || '500',
+      statusCode: err.statusCode || INTERNAL_SERVER_ERROR,
       message: err.message || 'Internal server error'
     };
     if (req) {
@@ -20,12 +21,5 @@ const log = (req, err) => {
     winston.info(logInfo);
   }
 };
-
-// const toSecurityLog = body => {
-//   if (body.password) {
-//     return { ...body, password: "this log does not show user's password" };
-//   }
-//   return body;
-// };
 
 module.exports = { log };

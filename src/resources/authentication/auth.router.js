@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { ErrorInfo } = require('../../helpers/error-handler');
 const authService = require('./auth.service');
+const { OK, FORBIDDEN } = require('http-status-codes');
 
 router.route('/').post(async (req, res, next) => {
   const { login, password } = req.body;
@@ -10,9 +11,9 @@ router.route('/').post(async (req, res, next) => {
       userId: user._id,
       login: user.login
     });
-    return res.status(200).json({ token });
+    return res.status(OK).json({ token });
   }
-  return next(new ErrorInfo(403, 'Forbidden'));
+  return next(new ErrorInfo(FORBIDDEN, 'Forbidden'));
 });
 
 module.exports = router;

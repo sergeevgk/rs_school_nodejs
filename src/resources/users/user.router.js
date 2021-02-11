@@ -1,6 +1,4 @@
 const router = require('express').Router();
-// move toResponce to service
-const User = require('./user.db.model');
 const userService = require('./user.service');
 const { unassignUserFromTasks } = require('../tasks/task.service');
 
@@ -8,11 +6,11 @@ router
   .route('/')
   .get(async (req, res) => {
     const users = await userService.getAll();
-    return res.json(users.map(User.toResponse));
+    return res.json(users);
   })
   .post(async (req, res) => {
     const newUser = await userService.createUser(req.body);
-    return res.json(User.toResponse(newUser));
+    return res.json(newUser);
   });
 
 router
@@ -21,7 +19,7 @@ router
     const { id } = req.params;
     const user = await userService.getUserById(id);
 
-    return res.json(User.toResponse(user));
+    return res.json(user);
   })
   .put(async (req, res) => {
     const { id } = req.params;
@@ -33,7 +31,7 @@ router
       password
     });
 
-    return res.json(User.toResponse(updatedUser));
+    return res.json(updatedUser);
   })
   .delete(async (req, res) => {
     const { id } = req.params;

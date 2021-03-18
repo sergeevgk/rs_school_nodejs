@@ -1,7 +1,16 @@
 const User = require('./user.db.model');
 
-const getAll = async () => {
-  return User.find({});
+const getAll = async (skip, limit, name, login) => {
+  if (name === 'null') {
+    name = '';
+  }
+  if (login === 'null') {
+    login = '';
+  }
+  let filter = {name: {$regex: `.*${name}.*`, $options: 'i'}, login: {$regex: `.*${login}.*`, $options: 'i'}};
+  return User.find(filter)
+            .skip(skip)
+            .limit(limit);
 };
 
 const getUserById = async id => {

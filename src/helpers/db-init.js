@@ -5,6 +5,11 @@ const seedData = async () => {
   await addAdminUser();
 };
 
+const deleteAdmin = () => {
+  User.deleteOne({ name: 'test-admin'}, (err, res) => {
+  })
+}
+
 // const dropData = db => {
 //   db.dropCollection('users');
 //   db.dropCollection('boards');
@@ -17,8 +22,10 @@ const addAdminUser = async () => {
     name: 'test-admin',
     login: 'admin',
     password: hashedPassword,
+    registeredAt: '2000-00-00',
+    numberOfTasks: 2,
     id: 1
   });
 };
 
-module.exports = seedData;
+module.exports = { seedData, deleteAdmin };

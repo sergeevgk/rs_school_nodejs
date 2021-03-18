@@ -5,7 +5,11 @@ const { unassignUserFromTasks } = require('../tasks/task.service');
 router
   .route('/')
   .get(async (req, res) => {
-    const users = await userService.getAll();
+    const skip = parseInt(req.query.skip);
+    const limit = parseInt(req.query.limit);
+    const name = req.query.name;
+    const login = req.query.login;
+    const users = await userService.getAll(skip, limit, name, login);
     return res.json(users);
   })
   .post(async (req, res) => {
@@ -40,5 +44,6 @@ router
 
     return res.json({ id: deletedUserId });
   });
+
 
 module.exports = router;

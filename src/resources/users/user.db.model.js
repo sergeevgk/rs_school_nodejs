@@ -11,6 +11,8 @@ const schema = new Schema(
     },
     name: String,
     login: String,
+    registeredAt: String,
+    numberOfTasks: Number,
     password: {
       type: String,
       required: true
@@ -20,9 +22,9 @@ const schema = new Schema(
 );
 
 schema.statics.toResponse = user => {
-  const { _id, name, login } = user;
+  const { _id, name, login, registeredAt, numberOfTasks } = user;
 
-  return { id: _id, name, login };
+  return { id: _id, name, login, registeredAt, numberOfTasks };
 };
 
 const User = mongoose.model('User', schema);

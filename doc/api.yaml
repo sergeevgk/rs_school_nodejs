@@ -18,6 +18,10 @@ components:
           type: string
         login:
           type: string
+        registeredAt:
+          type: string
+        numberOfTasks:
+          type: string
     Board:
       properties:
         id:
@@ -101,6 +105,12 @@ paths:
                 password:
                   type: string
                   description: The user's password
+                registeredAt:
+                  type: string
+                  description: The user's registration date
+                numberOfTasks:
+                  type: string
+                  description: The user's number of assigned tasks
               required:
                 - name
       responses:
@@ -160,6 +170,12 @@ paths:
                 password:
                   type: string
                   description: The user's password
+                registeredAt:
+                  type: string
+                  description: The user's registration date
+                numberOfTasks:
+                  type: string
+                  description: The user's number of assigned tasks
               required:
                 - name
       responses:

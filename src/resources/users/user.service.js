@@ -4,8 +4,9 @@ const { ErrorInfo } = require('../../helpers/error-handler');
 const { encryptPassword } = require('../../utils/crypt');
 const { NOT_FOUND, INTERNAL_SERVER_ERROR } = require('http-status-codes');
 
-const getAll = () => {
-  return usersRepo.getAll().map(User.toResponse);
+const getAll = async (skip = 0, limit = 0, name = "", login = "") => {
+  const users = await usersRepo.getAll(skip, limit, name, login);
+  return users.map(User.toResponse);
 };
 const getUserById = async id => {
   const user = await usersRepo.getUserById(id);

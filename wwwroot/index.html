@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha256-T/zFmO5s/0aSwc6ics2KLxlfbewyRz6UNw1s3Ppf5gE=" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha256-7dA7lq5P94hkBsWdff7qobYkp9ope/L5LQy2t/ljPLo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js" integrity="sha256-qXBd/EfAdjOA2FGrGAG+b3YBn2tn5A6bhz+LSgYD96k=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="modal-form.css">
+    
+    <script type='module' src='index.js'></script>
+</head>
+
+<title>Table page</title>
+<body>
+  <h1>Users table</h1>
+  <div class="row justify-content-between align-items-end">
+    <div class="col-6 filters">
+      <form id="filters-form">
+        <div class="form-row align-items-center">
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInput">Name</label>
+            <input id="filter-name" type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Name">
+          </div>
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInputGroup">Login</label>
+            <input id="filter-login" type="text" class="form-control mb-2" id="inlineFormInputGroup" placeholder="Login">
+          </div>
+          <div class="col-auto">
+            <button id="filterButton" data-action="applyFilter" type="button" class="btn btn-primary mb-2 click-handled">Filter</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-3">
+      <div class="control-buttons">
+        <button id="createButton" data-action="createUser" type="button" class="btn btn-primary mb-2 click-handled">Create</button>
+      </div>
+    </div>
+  </div>
+  <div id="modal-form">
+    
+  </div>
+
+<div class="table-responsive">
+  <table class="table caption-top table-striped table-hover table-bordered" id="data-table">
+    <caption>List of users</caption>
+    <thead>
+    <tr class="table-primary">
+      <th scope="col">
+        Id
+      </th>
+      <th scope="col">
+        Name
+      </th>
+      <th scope="col">
+        Login
+      </th>
+      <th scope="col">
+        Registered-At
+      </th>
+      <th scope="col">
+        Number of tasks
+      </th>
+      <th scope="col">
+       Actions
+      </th>
+    </tr>
+    </thead>
+  </table>
+</div>
+<div label="table page navigation">
+  <ul id="table-pagination">
+  </ul>
+</div>
+</body>
+</html>

@@ -5739,3 +5739,475 @@
   level: 'error',
   timestamp: '2020-11-01 23:08:39'
 }
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:38:09'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:38:36'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:41:23'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:44:11'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:44:17'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:44:43'
+}
+{
+  statusCode: 401,
+  message: 'Unauthorized error',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:44:46'
+}
+{
+  statusCode: 404,
+  message: 'User with login string does not exist',
+  url: 'http://localhost:4000/login',
+  level: 'error',
+  timestamp: '2021-02-23 01:44:58'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:45:29'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:45:46'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:45:46'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:45:58'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:46:37'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:47:45'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:54:47'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:54:49'
+}
+{
+  statusCode: 401,
+  message: 'Authentication scheme is incorrect',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:54:53'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:55:27'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:59:33'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 01:59:52'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 02:00:35'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 02:00:38'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 02:09:14'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 02:09:14'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:12'
+}
+{
+  statusCode: 500,
+  message: 'tasksRepo.getAllTasksByBoard(...).map is not a function',
+  url: 'http://localhost:4000/boards/7589993f-7686-4172-a58f-10995a921b06/tasks',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:12'
+}
+{
+  statusCode: 500,
+  message: 'tasksRepo.getAllTasksByBoard(...).map is not a function',
+  url: 'http://localhost:4000/boards/7589993f-7686-4172-a58f-10995a921b06/tasks',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:12'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board undefined does not exist',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:12'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 7589993f-7686-4172-a58f-10995a921b06 does not exist',
+  url: 'http://localhost:4000/boards/7589993f-7686-4172-a58f-10995a921b06/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:13'
+}
+{
+  statusCode: 404,
+  message: 'Board da684808-51ce-4ca5-bd65-44651f9820f8 does not exist',
+  url: 'http://localhost:4000/boards/da684808-51ce-4ca5-bd65-44651f9820f8',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:13'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 985d96a6-78b7-42cc-b59f-a7440025ad7f does not exist',
+  url: 'http://localhost:4000/boards/985d96a6-78b7-42cc-b59f-a7440025ad7f/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:13'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 985d96a6-78b7-42cc-b59f-a7440025ad7f does not exist',
+  url: 'http://localhost:4000/boards/985d96a6-78b7-42cc-b59f-a7440025ad7f/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:13'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 985d96a6-78b7-42cc-b59f-a7440025ad7f does not exist',
+  url: 'http://localhost:4000/boards/985d96a6-78b7-42cc-b59f-a7440025ad7f/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:13'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 985d96a6-78b7-42cc-b59f-a7440025ad7f does not exist',
+  url: 'http://localhost:4000/boards/985d96a6-78b7-42cc-b59f-a7440025ad7f/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:13'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 985d96a6-78b7-42cc-b59f-a7440025ad7f does not exist',
+  url: 'http://localhost:4000/boards/985d96a6-78b7-42cc-b59f-a7440025ad7f/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:13'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 46b53fa3-f26a-49b1-af91-cfdf6c44b145 does not exist',
+  url: 'http://localhost:4000/boards/46b53fa3-f26a-49b1-af91-cfdf6c44b145/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:14'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:52'
+}
+{
+  statusCode: 500,
+  message: 'tasksRepo.getAllTasksByBoard(...).map is not a function',
+  url: 'http://localhost:4000/boards/0e1e98a5-dacf-48a4-8d13-7cc8011283ea/tasks',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:53'
+}
+{
+  statusCode: 500,
+  message: 'tasksRepo.getAllTasksByBoard(...).map is not a function',
+  url: 'http://localhost:4000/boards/0e1e98a5-dacf-48a4-8d13-7cc8011283ea/tasks',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:53'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board undefined does not exist',
+  url: 'http://localhost:4000/boards/undefined/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:53'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 0e1e98a5-dacf-48a4-8d13-7cc8011283ea does not exist',
+  url: 'http://localhost:4000/boards/0e1e98a5-dacf-48a4-8d13-7cc8011283ea/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:53'
+}
+{
+  statusCode: 404,
+  message: 'Board 8519b39d-5409-4ebf-b692-1cdc3cd95135 does not exist',
+  url: 'http://localhost:4000/boards/8519b39d-5409-4ebf-b692-1cdc3cd95135',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:53'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 08cbb545-b333-4d0d-b11c-9c45d317965d does not exist',
+  url: 'http://localhost:4000/boards/08cbb545-b333-4d0d-b11c-9c45d317965d/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:53'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 08cbb545-b333-4d0d-b11c-9c45d317965d does not exist',
+  url: 'http://localhost:4000/boards/08cbb545-b333-4d0d-b11c-9c45d317965d/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:53'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 08cbb545-b333-4d0d-b11c-9c45d317965d does not exist',
+  url: 'http://localhost:4000/boards/08cbb545-b333-4d0d-b11c-9c45d317965d/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:53'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 08cbb545-b333-4d0d-b11c-9c45d317965d does not exist',
+  url: 'http://localhost:4000/boards/08cbb545-b333-4d0d-b11c-9c45d317965d/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:53'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 08cbb545-b333-4d0d-b11c-9c45d317965d does not exist',
+  url: 'http://localhost:4000/boards/08cbb545-b333-4d0d-b11c-9c45d317965d/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:53'
+}
+{
+  statusCode: 404,
+  message: 'Task undefined from board 78d34381-c85c-48e9-a3e2-169fc6243a40 does not exist',
+  url: 'http://localhost:4000/boards/78d34381-c85c-48e9-a3e2-169fc6243a40/tasks/undefined',
+  level: 'error',
+  timestamp: '2021-02-23 02:14:54'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 02:18:13'
+}
+{
+  statusCode: 500,
+  message: 'usersRepo.getAll(...).map is not a function',
+  url: 'http://localhost:4000/users',
+  level: 'error',
+  timestamp: '2021-02-23 02:21:03'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: User validation failed: registeredAt: Cast to date failed for value "2000-00-00" at path "registeredAt"',
+  level: 'error',
+  timestamp: '2021-02-24 11:50:50'
+}
+{
+  statusCode: 500,
+  message: 'Unhandled Rejection: seedData is not a function',
+  level: 'error',
+  timestamp: '2021-02-24 12:03:24'
+}
+{
+  statusCode: 500,
+  message: `Failed to parse: { find: "users", filter: {}, projection: {}, limit: "1", returnKey: false, showRecordId: false, lsid: { id: UUID("24cc227d-718c-4066-b1a4-f564bf2be565") }, $clusterTime: { clusterTime: Timestamp(1614167367, 2), signature: { hash: BinData(0, 25EE1763CF7AE4EC8F22E9C8BB73102773B6CAFD), keyId: 6886748766557175811 } }, $db: "test" }. 'limit' field must be numeric.`,
+  url: 'http://localhost:4000/users?limit=1',
+  level: 'error',
+  timestamp: '2021-02-24 14:48:36'
+}
+{
+  statusCode: 500,
+  message: `Failed to parse: { find: "users", filter: {}, projection: {}, skip: "1", limit: "1", returnKey: false, showRecordId: false, lsid: { id: UUID("24cc227d-718c-4066-b1a4-f564bf2be565") }, $clusterTime: { clusterTime: Timestamp(1614167372, 2), signature: { hash: BinData(0, 6E0A453716A9A8D1B43B8B75C2DB4A450AA2BB07), keyId: 6886748766557175811 } }, $db: "test" }. 'skip' field must be numeric.`,
+  url: 'http://localhost:4000/users?limit=1&skip=1',
+  level: 'error',
+  timestamp: '2021-02-24 14:48:54'
+}
+{
+  statusCode: 500,
+  message: 'Skip value must be non-negative, but received: -5',
+  url: 'http://localhost:4000/users?skip=-5&limit=5',
+  level: 'error',
+  timestamp: '2021-02-25 00:40:11'
+}
+{
+  statusCode: 500,
+  message: 'Skip value must be non-negative, but received: -5',
+  url: 'http://localhost:4000/users?skip=-5&limit=5',
+  level: 'error',
+  timestamp: '2021-02-25 00:42:46'
+}
+{
+  statusCode: 500,
+  message: 'Skip value must be non-negative, but received: -5',
+  url: 'http://localhost:4000/users?skip=-5&limit=5',
+  level: 'error',
+  timestamp: '2021-02-25 00:44:09'
+}
+{
+  statusCode: 500,
+  message: `Cast to string failed for value "{ regex: '.*.*', options: 'i' }" at path "name" for model "User"`,
+  url: 'http://localhost:4000/users?name=&login=&skip=0&limit=5',
+  level: 'error',
+  timestamp: '2021-03-18 16:54:38'
+}
+{
+  statusCode: 500,
+  message: `Cast to string failed for value "{ regex: '.*.*', options: 'i' }" at path "login" for model "User"`,
+  url: 'http://localhost:4000/users?name=&login=&skip=0&limit=5',
+  level: 'error',
+  timestamp: '2021-03-18 16:55:00'
+}
+{
+  statusCode: 500,
+  message: `Cast to string failed for value "{ regex: '.*.*', options: 'i' }" at path "login" for model "User"`,
+  url: 'http://localhost:4000/users?name=&login=&skip=0&limit=5',
+  level: 'error',
+  timestamp: '2021-03-18 16:55:10'
+}
+{
+  statusCode: 500,
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  url: 'http://localhost:4000/users?name=&login=&skip=0&limit=5',
+  level: 'error',
+  timestamp: '2021-03-18 17:47:28'
+}
+{
+  statusCode: 500,
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  url: 'http://localhost:4000/users?name=&login=&skip=0&limit=5',
+  level: 'error',
+  timestamp: '2021-03-18 17:47:31'
+}
+{
+  statusCode: 500,
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  url: 'http://localhost:4000/users?name=&login=&skip=0&limit=5',
+  level: 'error',
+  timestamp: '2021-03-18 17:47:37'
+}
+{
+  statusCode: 500,
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  url: 'http://localhost:4000/users?name=&login=&skip=0&limit=5',
+  level: 'error',
+  timestamp: '2021-03-18 17:47:39'
+}
+{
+  statusCode: 500,
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  url: 'http://localhost:4000/users?name=&login=&skip=0&limit=5',
+  level: 'error',
+  timestamp: '2021-03-18 17:47:43'
+}
+{
+  statusCode: 500,
+  message: "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  url: 'http://localhost:4000/users?name=null&login=null&skip=0&limit=5',
+  level: 'error',
+  timestamp: '2021-03-18 17:47:52'
+}
+{
+  statusCode: 500,
+  message: "Unhandled Rejection: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  level: 'error',
+  timestamp: '2021-03-18 17:48:34'
+}
+{
+  statusCode: 500,
+  message: "Unhandled Rejection: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/",
+  level: 'error',
+  timestamp: '2021-03-18 17:55:51'
+}

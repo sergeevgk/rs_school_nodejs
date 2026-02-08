@@ -12,7 +12,8 @@
     "start": "nodemon src/server.js",
     "lint": "eslint ./ --ignore-path .gitignore --fix",
     "test": "cross-env DEBUG=rs:* jest --testMatch \"<rootDir>/test/e2e/test/*.test.js\" --noStackTrace",
-    "test:auth": "cross-env DEBUG=rs:* TEST_MODE=auth jest --noStackTrace"
+    "test:auth": "cross-env DEBUG=rs:* TEST_MODE=auth jest --noStackTrace",
+    "prepare": "husky"
   },
   "keywords": [
     "rs",
@@ -25,7 +26,7 @@
   ],
   "license": "ISC",
   "engines": {
-    "node": ">=12.0.0"
+    "node": ">=18.0.0"
   },
   "jest": {
     "testEnvironment": "node",
@@ -33,44 +34,38 @@
       "./test/setup.js"
     ]
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.js": [
-      "npm run lint",
-      "git add"
+      "npm run lint"
     ]
   },
   "dependencies": {
-    "bcrypt": "^5.0.0",
-    "cross-env": "6.0.3",
-    "dotenv": "8.2.0",
-    "express": "4.22.1",
+    "bcrypt": "^5.1.1",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
     "express-async-errors": "^3.1.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.13.22",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
     "morgan": "^1.10.0",
-    "swagger-ui-express": "4.1.2",
-    "uuid": "3.3.3",
-    "winston": "^3.3.3",
-    "yamljs": "0.3.0"
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^11.0.5",
+    "winston": "^3.17.0",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
-    "eslint": "6.7.2",
-    "eslint-config-prettier": "6.7.0",
-    "eslint-plugin-node": "10.0.0",
-    "eslint-plugin-prettier": "3.1.1",
-    "husky": "3.1.0",
-    "lint-staged": "9.5.0",
-    "nodemon": "2.0.2",
-    "prettier": "1.19.1",
-    "chai": "4.2.0",
-    "debug": "4.1.1",
-    "dirty-chai": "2.0.1",
-    "jest": "30.2.0",
-    "supertest": "4.0.2"
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.1",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2",
+    "chai": "^5.1.2",
+    "debug": "^4.4.0",
+    "dirty-chai": "^2.0.1",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
